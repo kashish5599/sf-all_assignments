@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ludo</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:800" rel = "stylesheet">
+	<link rel="shortcut icon" type="image/png" href="images/icon.png">
+</head>
+<body>
+	<div id="col1"></div>
+	<div id="col2"></div>
+	<div id="row1"></div>
+	<div id="row2"></div>
+	<div id = "A1"><br>1A</div>
+	<div id = "A2"><br>2A</div>
+	<div id = "B1"><br>1B</div>
+	<div id = "B2"><br>2B</div>
+	<div id="player1"><h3>Locker for A</h3><h1><span id="tokens_a">2</span> A</h1></div>
+	<div id="player2"><h3>Locker for B</h3><h1><span id="tokens_b">2</span> B</h1></div>
+	<div id="center_box">
+		<ul>
+			<li>TURN: Player <span id="turn">A</span></li>
+			<li id ="Roll" onClick="Rolled()">Roll!!</li>
+			<!--input type="number" min="1" max="6" id="val" maxlength = "1"-->
+			<img src = "images/dice1.png" class="dice" id = "d1">
+			<img src = "images/dice2.png" class="dice" id = "d2">
+			<img src = "images/dice3.png" class="dice" id = "d3">
+			<img src = "images/dice4.png" class="dice" id = "d4">
+			<img src = "images/dice5.png" class="dice" id = "d5">
+			<img src = "images/dice6.png" class="dice" id = "d6">
+			<input type="number" min="1" max="6" id="entr_val" maxlength="1">
+		</ul>
+	</div>
+	<div id = "tip1">You need an exact number to end the game!</div>
+	<div id = "tip2">Player <span id = "winner">A</span> wins!!</div>
+	<div id = "Rules">
+		<h1 style = "text-align: center; padding-top: 2vw;">Guidelines</h1>
+		<ul>
+			<li>Token unlocks when dice rolls 6.</li>
+			<li>You can enter the value of dice in the last box.</li>
+			<li>You need exact number to finish the round.</li>
+			<li>Tokens move clockwise.</li>
+			<li>Extra turn is given only when dice rolls 6.</li>
+			<li>To unlock a token (when dice rolls 6), click on its locker.</li>
+		</ul>
+	</div>
+	<script type="text/javascript" src="code.js"></script>
+</body>
+</html>

@@ -1,0 +1,623 @@
+@font-face {
+	font-family: museoslab300;
+	src: url('Museo300.ttf');
+}
+
+@font-face {
+	font-family: museoslab700;
+	src: url('Museo700.ttf');
+}
+
+body {
+	line-height: normal;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #454545;
+    line-height: normal;
+    margin: 0;
+    background: #d7f2f9 url(bkgrnd.gif) repeat-x;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+#nav_bar {
+	background-image: url(images/navbar.png);
+	box-shadow: 0 2px 3px rgba(0,0,0,0.40), inset 0 1px rgba(255,255,255,0.10);
+	overflow: hidden;
+	max-width: 100%;
+	padding: 0vw;
+	padding-left: 15vw;
+	height: 69px;
+    vertical-align: middle;
+	font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,sans-serif; 
+	font-weight: bold;
+}
+
+#nav1{
+	line-height: 69px;
+	list-style: none;
+	padding: 0 22px;
+	overflow: hidden;
+	margin: 0px;
+	margin-left: 215px;
+	font-size: 100%;
+	font-style: bold;
+}
+
+#logo {
+	position: absolute;
+	left: 15vw;
+	top: 0vw;
+	margin-top: 0.4vw;
+}
+
+#nav1 li:first-child a {
+	border-left: 1px solid #535353;
+}
+
+#nav1 li a {
+	float: left;
+	height: 5vw;
+	border-right: 1px solid #535353;
+	display: block;
+	text-decoration: none;
+	color: white;
+	padding: 0 20px;
+}
+
+#nav1 li a:hover {
+    background-color: rgba(0,0,0,0.1);
+}
+
+#nav2 {
+	display: inline-block;
+	list-style: none;
+	line-height: 18px;
+	overflow: hidden;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.40);
+	position: relative;
+	left: 728px;
+	top: -67px;
+}
+
+#nav2 li {
+	display: inline-block;
+	margin-right: 6px;
+}
+
+#nav2 li a {
+    background: url(images/btn_nav.png);
+	float: left;
+	border-radius: 3px;
+	font-weight: bold;
+	box-shadow: 0 0 2px 0 rgba(0,0,0,0.40), inset 0 1px 0 rgba(255,255,255,0.20);
+	text-decoration: none;
+	color: white;
+	padding: 8px 15px;
+	border: 1px solid #181818;
+}
+
+#nav2 li a:hover {
+    background: url(images/btn_navhover.png);
+}
+
+#light {
+    background: transparent url(images/learnboost_sprite.png) no-repeat 0 -100px;
+    height: 532px;
+    margin: 0 auto;
+    width: 787px;
+}
+h1 h2 {
+    text-align: center;
+    text-shadow: #fff 0 1px 0;
+    line-height: 47px;
+}
+
+#head1 h1 {
+    color: #ce2654;
+    font-family: museoslab700;
+    font-size: 52px;
+    line-height: 47px;
+    width: 450px;
+    font-style: normal;
+    position: relative;
+    left: 34px;
+}
+
+#head1 h2 {
+    color: #ce2654;
+    font-family: museoslab700 , serif;
+    font-size: 52px;
+    position: relative;
+    top: -88px;
+    left: 10px;
+    margin: 0 0 10px;
+}
+
+#content1 p {
+	text-shadow: #fff 0 1px 0;
+    margin: 0 40px;
+    font: 300 23px/29px "museoslab300";
+    text-align: center;
+    position: relative;
+    top: -93px;
+}
+
+#feedback {
+    width: 30px;
+    height: 100px;
+    position: fixed;
+    top: 45vh;
+    left: 0;
+    background: transparent url(images/feedback.png) repeat 0% 0%;
+    z-index: +5;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#Feedback {
+    text-align: center;
+    font-size: 13px;
+    background-color: transparent;
+    position: relative;
+    top: 28px;
+    color: #fff;
+    left: 0px;
+    opacity: 1;
+    transform: rotate(90deg);
+}
+
+#first_box {
+	background: transparent url(images/box1_ii.png) repeat-y 45% 0%;
+	margin: 0 auto;
+    position: relative;
+    left: 0px;
+    top: -511px;
+    min-height: 428px;
+    padding: 20px 367px 0 30px;
+    display: block;
+    border: 1px solid white;
+    border-radius: 6px;
+    height: 29px;
+    width: 498px
+}
+
+#btn1demo {
+    background: transparent url(images/demo.png) no-repeat;
+    position: relative;
+    height: 51px;
+    width: 143px;
+    margin: 0 7px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    top: -71px;
+    left: 92px;
+}
+
+#btn1demo:hover {
+    background: transparent url(images/demohover.png) no-repeat;
+    position: relative;
+    top: -71px;
+    left: 92px;
+}
+
+#btn1vid {
+    background: transparent url(images/vid.png) no-repeat;
+    position: relative;
+    height: 51px;
+    width: 143px;
+    margin: 0 7px;
+    text-align: center;
+	display: inline-block;
+    position: relative;
+    top: -71px;
+    left: 88px;
+}
+
+#btn1vid:hover {
+    background: transparent url(images/vidhover.png) no-repeat;
+    position: relative;
+    top: -71px;
+    left: 88px;
+    
+}
+
+#box1_top {
+	background: transparent url(images/learnboost_sprite_home.png) no-repeat 0% 0%;
+    height: 20px;
+    left: -5px;
+    position: absolute;
+    top: -1.6px;
+    width: 905px;
+}
+
+#box1_bottom {
+	background: transparent url(images/learnboost_sprite_home.png) no-repeat 0% 100%;
+    bottom: -7px;
+    height: 212px;
+    position: absolute;
+    left: -5px;
+    width: 905px;
+}
+
+#head1 {
+	text-align: center;
+	font-family: museoslab700;
+    text-shadow: #fff 0 1px 0;
+    line-height: 52px;
+    position: relative;
+    top: -17px;
+    left: -10px;
+}
+
+#banner {
+	position:relative;
+	left: 515px;
+	top: -383px;
+}
+
+#login {
+	position:relative;
+	left: 544px;
+	top: -476px;
+	border-width: 0 1px 1px 1px;
+    border-color: #c3c4c4;
+    border-style: solid;
+    background: url(images/login_back.png);
+    border-radius-bottom-left: 6px;
+	max-width: 308px;
+	height: 417px;
+	border-radius: 6px;
+}
+
+#signup {
+	text-align: center;
+	border: 1px solid #7c9c1d;
+    font: bold 25px Helvetica,Arial;
+    text-shadow: 0 1px 0 #fff;
+    color: #2b2b2b;
+    background-color: #add133;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    height: 53px;
+    width:308px;
+    line-height: 53px;
+    vertical-align: middle;
+    position: relative;
+    left: -1px;
+}
+
+#btns2fb {
+    margin: 11px 5px 11px 16px;
+    position: relative;
+}
+
+#btns2ggl {
+	margin: 11px 5px 11px 16px;
+	position: relative;
+	left: -4.5px
+}
+
+#or {
+    position: relative;
+    top: -26px;
+    left: 150px;
+    font-size: 13px;
+    font-style: oblique;
+    text-shadow: 0 1px 0 #fff;
+    color: #000;
+    font-family: Georgia;
+}
+
+#line1 {
+	border-color: #fff;
+	position: relative;
+	top: -6px;
+	max-width: 140px;
+	left:-84px; 
+}
+
+#line2 {
+	border-color: #fff;
+	position: relative;
+	top: -42px;
+	max-width: 134px;
+	left:87px; 
+}
+
+#form1 {
+	position: relative;
+	top: -35px;
+	margin-left: 16px;
+}
+
+label {
+	font: oblique 11px Georgia;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    margin-bottom: 3px;
+    display: block;
+    padding-left: 2px;
+    cursor: pointer;
+}
+
+input {
+	border: 1px solid #ababab;
+    background: #fff;
+    box-shadow: 0 1px 0 #fff;
+    box-sizing: border-box;
+    height: 32px;
+    padding-left: 6px;
+    padding-right: 6px;
+    display: block;
+}
+
+form div input {
+	width: 130px;
+}
+
+#rest_form input {
+	width: 180px;
+}
+
+div label {
+	cursor: context-menu;
+}
+
+#lname {
+	position: relative;
+	left: 140px;
+	top: -47px;
+}
+
+#rest_form {
+	position: relative;
+	top: -37px;
+}
+
+#list {
+	position: relative;
+	left: 4px;
+	top: 5px;
+	width: 140px;
+    margin-top: 10px;
+    font-size: 13px;
+    border: 0;
+    padding: 0 60px 0 12px;
+    height: 31px;
+    line-height: 31px;
+    border-radius: 8px;
+    box-shadow: 0 1px 0 #fff;
+    background: url(images/btn.png) no-repeat left 0,url(images/btn.png) no-repeat right -72px,url(images/btn.png) repeat-x left -36px;
+}
+
+input[type=checkbox] {
+    width: 15px;
+    height: 15px;
+    margin: 15px -160px 0 -2px;
+    background: transparent url(images/btn2.png) no-repeat 0 0;
+    cursor: pointer;
+    vertical-align: bottom;
+    border: none;
+    display: inline-block;
+    box-shadow: none;
+    position: relative;
+    left: -82px;
+    top: 1px;
+}
+
+#chckbx {
+	font: normal normal normal 10px Helvetica,Arial,sans-serif;
+	font-size: 11px;
+	color: #595959;
+    text-shadow: 0 1px 0 #fff;
+    cursor: pointer;
+    position: relative;
+    left: 18px;
+    top: -10px;
+}
+
+#join label a {
+	text-decoration: none;
+	color: #0d45c2;
+	cursor: pointer;
+}
+
+#join label a:hover {
+	text-decoration: underline;
+	text-decoration-color: #0d45c2; 
+}
+
+#join {
+	padding: 4px 16px 14px 10px;
+    overflow: hidden;
+    font-size: 11px;
+    color: #595959;
+    text-shadow: 0 1px 0 #fff;
+    position: relative;
+    top: -22px;
+}
+
+#join label {
+	font-size: 11px;
+	color: #595959;
+    text-shadow: 0 1px 0 #fff;
+    position: relative;
+    top: 20px;
+    left: -12px;
+	font-family: Helvetica;
+	font-style: normal;
+}
+
+#join input {
+	float: right;
+    width: 100px;
+    height: 40px;
+    line-height: 36px;
+    cursor: pointer;
+    background: url(images/join2.png) no-repeat top left;
+    border: 0;
+    font-size: 13px;
+    margin-left: 10px;
+    padding: 1px 6px;
+}
+
+#join input:hover {
+    background-position: bottom;
+}
+
+#bannertop {
+	background: transparent url(images/learnboost_sprite.png) no-repeat 0% -650px;
+    height: 20px;
+    width: 907px;
+    margin: 0 auto;
+    position: relative;
+    left: 0px;
+    top: -495px;
+}
+
+#second_box {
+	background-image: url(images/bkgrnd_box2.png);
+	width: 846px;
+	height: 300px;
+    margin: 0 auto;
+	position: relative;
+	left: 0px;
+	top:-496px;
+	height: 550px;
+    overflow: hidden;
+    padding: 0 17px 10px 44px;
+}
+
+#second_box h1 {
+	color: #ce2654;
+    font: 700 26px/40px museoslab700,serif
+}
+
+#second_box h2 {
+	font: lighter 20px/24px Helvetica;
+	color: #454545;
+}
+
+#second_box a {
+	text-decoration: none;
+}
+
+#second_box p {
+	font: lighter 16px/20px Helvetica;
+    margin-top: -16px;
+    padding: 0 20px 0 0;
+}
+
+#second_box p a {
+	color: #4096e7;
+    font-weight: bold;
+    font-size: 12px;
+    padding-right: 33px;
+    text-transform: uppercase;
+}
+
+#second_box a h2:hover {
+	text-decoration: underline;
+}
+
+#second_box p a:hover:after {
+	content: url(images/arrow.png);
+	display: inline-block;
+}
+
+#second_box hr {
+	border: none;
+    border-top: 1px solid #e5e5e5;
+    height: 0;
+    margin-top: -10px;
+    margin-bottom: 39px;
+    width: 375px;
+    position: relative;
+    left: -120px;
+}
+
+.content2 {
+	position: relative;
+	left: 114px;
+	top: -14px;
+}
+
+#bannerbottom {
+	background: transparent url(images/learnboost_sprite.png) no-repeat 0% -670px;
+    clear: both;
+    height: 25px;
+    margin: 0 auto;
+    width: 907px;
+    position: relative;
+    top: -496px;
+}
+
+#footer {
+	border: 0;
+    clear: both;
+    color: #5e838b;
+    font-size: 11px;
+    height: 1%;
+    margin: -523px auto 40px;
+    outline: 0;
+    overflow: hidden;
+    padding: 0 0 0 20px;
+    text-shadow: rgba(255,255,255,0.00) 1px 1px 1px;
+    vertical-align: baseline;
+    width: 895px;
+}
+
+h6 {
+    font-size: 11px;
+    font-weight: normal;
+    color: #5e838b;
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#footer ul li {
+    float: left;
+    line-height: 14px;
+    padding: 0 10px;
+    width: 100px;
+}
+
+#footer ul li ul li {
+    float: none;
+    padding: 0;
+    width: 70px;
+}
+
+#footer ul li#list_last {
+	padding: 0;
+    text-align: left;
+    width: 388px;
+}
+
+#footer ul li ul li a {
+	text-decoration: none;
+	color: #6e99a2;
+}
+
+#fblike {
+	width: 300px;
+	position: relative;
+	left: 360px;
+	top: 50px;
+}
+
+#fblike a div {
+	height: 20px;
+	width: 77px;
+	background-image: url(images/fblike.png);
+	background-size: 77px 20px;
+}
+
+#fblike a div:hover {
+	background-image: url(images/fblikehover.png);
+}
